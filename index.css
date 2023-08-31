@@ -1,0 +1,83 @@
+/* ========== BOX MODEL ========== //
+//
+// Margin      | e.g. margin: 10px 10px 10px 20px (top | right | bottom | left)  
+// Border      | e.g. border: 2px dotted green; border-top: 3px solid red
+// Padding     | e.g. padding: 10px (shorthand)
+// Content     | 
+*/
+
+/* ========== CHALLENGE 1 ========== //
+//
+// Add some padding and margins to our elements, give the
+//      -- recipe-card an equal margin of 20px 
+//      and a padding of 50px
+//      -- recipe-content an equal padding of 20px
+//      -- paragraphs a bottom margin of 20px
+//      -- link an equal margin of 20px 
+//      and a padding of 10px (top and bottom) 12px (left and right)
+*/
+
+* {
+    line-height: 1.5;
+     margin: 0px;
+     padding: 0px;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c2a3d1;
+}
+
+img {
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: darkred;
+}
+
+.recipe-card {
+    width: 400px;
+    text-align: center;
+    background-color: #FFFAFA;
+    border: 2px solid yellow;
+    margin: 20px auto;
+    padding: 50px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,.5);
+}
+
+.recipe-content {
+    text-align: left;
+    padding: 20px;
+    margin: bottom 20px;
+}
+
+.recipe-card h2,
+.recipe-card a {
+    text-transform: uppercase;
+}
+
+.recipe-card.feature {
+    border: 2px solid darkred;
+}
+
+ul li h2 {
+    font-size: 16px;
+}
+
+.link {
+    margin: 20px;
+    padding: 10px 12px 10px 12px;
+
+}
+
+.recipe-card a {
+    background-color: #fc9400;
+    color: #fff;
+    text-decoration: none;
+}
